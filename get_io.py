@@ -23,3 +23,4 @@ def get_w_r():
             list_r.append(float(list_w_r[0]))
             list_w.append(float(list_w_r[1]))
     return '%.2f'%(sum(list_r)/5), '%.2f'%(sum(list_w)/5)
+
